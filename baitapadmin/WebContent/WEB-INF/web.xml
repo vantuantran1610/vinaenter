@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>baitapadmin</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+   
+	<servlet>
+		<servlet-name>IndexControler</servlet-name>
+		<servlet-class>controller.IndexControler</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>IndexControler</servlet-name>
+		<url-pattern>/trang-chu</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AddController</servlet-name>
+		<servlet-class>controller.AddController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddController</servlet-name>
+		<url-pattern>/add</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>UpdateController</servlet-name>
+		<servlet-class>controller.UpdateController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateController</servlet-name>
+		<url-pattern>/update</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DeleteController</servlet-name>
+		<servlet-class>controller.DeleteController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteController</servlet-name>
+		<url-pattern>/delete</url-pattern>
+	</servlet-mapping>
+	
+</web-app>

@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/controller/AddController.java=UTF-8
+encoding//src/controller/DeleteController.java=UTF-8
+encoding//src/controller/UpdateController.java=UTF-8
+encoding//src/library/ConnectDBLibrary.java=UTF-8
+encoding//src/model/dao/HoaDAO.java=UTF-8

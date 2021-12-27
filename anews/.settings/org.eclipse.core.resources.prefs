@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//WebContent/cat.jsp=UTF-8
+encoding//WebContent/detail.jsp=UTF-8
+encoding//WebContent/index.jsp=UTF-8
+encoding//src/controller/AddNewsController.java=UTF-8
+encoding//src/controller/DeleteCatController.java=UTF-8
+encoding//src/controller/DeleteNewsController.java=UTF-8
+encoding//src/controller/UpdateCatController.java=UTF-8
+encoding//src/controller/UpdateNewsController.java=UTF-8
+encoding//src/library/ConnectDBLibrary.java=UTF-8
+encoding//src/model/dao/CategoryDAO.java=UTF-8
+encoding//src/model/dao/NewsDAO.java=UTF-8

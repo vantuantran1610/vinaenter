@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//WebContent/chi-tiet.jsp=UTF-8
+encoding//WebContent/danh-muc.jsp=UTF-8
+encoding//WebContent/index.jsp=UTF-8
+encoding//WebContent/lien-he.jsp=UTF-8
+encoding//src/controller/ContactPublicController.java=UTF-8
+encoding//src/library/ConnectDBLibrary.java=UTF-8
+encoding//src/model/dao/FriendsListDAO.java=UTF-8
